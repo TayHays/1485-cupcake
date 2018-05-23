@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 	
-
+<link href="https://fonts.googleapis.com/css?family=Cookie|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 	
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 	
@@ -15,30 +15,29 @@
 <body>
 	
 <header>
-	<h1><img href="img/logo.jpg" alt="real authentic fake logo" width="87px"></h1>
 	<nav>
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#about">About</a></li>
+			<li><h1><img src="img/logo.jpg" alt="real authentic fake logo" width="87"></h1></li>
 			<li><a href="#products">Products</a></li>
 			<li><a href="#contact">Contact Us</a></li>
 		</ul>
 	</nav>
-	<div>
-		<p>Try our signature cupcake</p>
-	</div>
+	<p>Try our signature cupcake</p>
 </header>
 	
 <div class="wrapper" id="about">
 	<p>specialty bakery dedicated to creating and baking several different sweet treats. </p>
 	<section class="row">
+		<img class="l-fl" src="img/wh-cup.jpg" alt="white icing vanilla cupcake in pale blue wrapper">
 		<div class="l-fl">
 			<header>
 				<h2>About Us</h2>
 			</header>
 			<p>We offer cupcakes in three sizes: Jumbo Gourmet (filled), Regular &amp; Mini. Plus, we make Cakes, Cake Balls/Pops, Brownie Shots and several other sweet treats!</p>
 			<p>We are open 7 days a week, beginning Sunday at 11 am till 4 pm. Monday through Friday 8 am till 7 pm, and Saturday 10 am to 5 pm.</p>
-			<p>Stop in today for a treat or give us a call for an order!  We take special orders daily and provide delivery options. For pricing inquiries, please <a href="tel:555-555-1212">give us a call.</a></p>
+			<p>Stop in today for a treat or give us a call for an order!  We take special orders daily and provide delivery options. For pricing inquiries, please <a href="tel:+15555551212">give us a call.</a></p>
 			<p><a>Contact Us</a></p>
 		</div>
 		<section class="r-fl">
@@ -46,44 +45,46 @@
 				<h3>Hours</h3>
 			</header>
 			<ul>
-				<li><img href="img/cherry.png" alt="red cherry">Monday-Friday <br>8:00 am - 7:00 pm</li>
-				<li><img href="img/cherry.png" alt="red cherry">Saturday <br>10:00 am - 5:00 pm</li>
-				<li><img href="img/cherry.png" alt="red cherry">Sunday <br>11:00 am - 4:00 pm</li>
+				<li>Monday-Friday <br><time datetime="08:00">8:00 am</time> - <time datetime="19:00">7:00 pm</time></li>
+				<li>Saturday <br><time datetime="10:00">10:00 am</time> - <time datetime="17:00">5:00 pm</time></li>
+				<li>Sunday <br><time datetime="11:00">11:00 am</time> - <time datetime="16:00">4:00 pm</time></li>
 			</ul>
 		</section>
 	</section>
 </div>
 	
-<div>
-	<section class="wrapper" id="products">
+<div id="products">
+	<section class="wrapper">
 		<header>
 			<h2>Our Treats</h2>
+			<p>We have something for every craving, celebration and occasion. We also offer several allergen free options.</p>
 		</header>
-		<p>We have something for every craving, celebration and occasion. We also offer several allergen free options.</p>
-		<section>
-			<div class="wh-circle"></div>
-			<header>
-				<h3>Signature Cupcakes</h3>
-			</header>
-			<p> Caramels marshmallow jelly-o cotton candy ice cream I love cotton candy chocolate bar fruitcake.</p>
-			<p><a href="#contact">Order Now</a></p>
-		</section>
-		<section>
-			<div class="wh-circle"></div>
-			<header>
-				<h3>Allergen Free</h3>
-			</header>
-			<p>Topping pudding candy canes dragée. Lemon drops chupa chups gingerbread. Jelly topping apple pie cake pie icing chocolate bar fruitcake oat cake.</p>
-			<p><a href="#contact">Order Now</a></p>
-		</section>
-		<section>
-			<div class="wh-circle"></div>
-			<header>
-				<h3>Vegan</h3>
-			</header>
-			<p>Pastry halvah gummi bears chupa chups I love. Macaroon pastry chocolate cake oat cake I love soufflé chocolate I love</p>
-			<p><a href="#contact">Order Now</a></p>
-		</section>
+		<div class="row">
+			<section>
+				<div class="wh-circle"></div>
+				<header>
+					<h3>Signature Cupcakes</h3>
+				</header>
+				<p> Caramels marshmallow jelly-o cotton candy ice cream I love cotton candy chocolate bar fruitcake.</p>
+				<p><a href="#contact">Order Now</a></p>
+			</section>
+			<section>
+				<div class="wh-circle"></div>
+				<header>
+					<h3>Allergen Free</h3>
+				</header>
+				<p>Topping pudding candy canes dragée. Lemon drops chupa chups gingerbread. Jelly topping apple pie cake pie icing chocolate bar fruitcake oat cake.</p>
+				<p><a href="#contact">Order Now</a></p>
+			</section>
+			<section>
+				<div class="wh-circle"></div>
+				<header>
+					<h3>Vegan</h3>
+				</header>
+				<p>Pastry halvah gummi bears chupa chups I love. Macaroon pastry chocolate cake oat cake I love soufflé chocolate I love</p>
+				<p><a href="#contact">Order Now</a></p>
+			</section>
+		</div>
 	</section>
 </div>
 	
@@ -145,12 +146,12 @@
 	</div>
 </div>
 	
-<div>
-	<section class="wrapper" id="contact">
+<div id="contact">
+	<section class="wrapper">
 		<header>
 			<h2>Place Order</h2>
+			<p>Time limits for orders are 48 hours; please wait for a confirmation email to verify your order.</p>
 		</header>
-		<p>Time limits for orders are 48 hours; please wait for a confirmation email to verify your order.</p>
 		<table>
 			<caption>Prices</caption>
 			<colgroup>
@@ -185,119 +186,131 @@
 				</tr>
 			</tbody>
 		</table>
-		<form>
-			<div class="row">
-				<label class="l-fl">First Name
+		<form class="row">
+			<div class="col">
+				<label>First Name
 					<input type="text" name="first-name">
 				</label>
-				<div class="r-fl">
-					<p>Occasion</p>
-					<select name="occasion">
-						<optgroup label="home">
-							<option value="birthday">Birthday</option>
-							<option value="wedding">Wedding</option>
-							<option value="anniversary">Anniversary</option>
-						</optgroup>
-						<optgroup label="work">
-							<option value="promotions">Promotion</option>
-							<option value="meetings">Meetings</option>
-							<option value="anniversary">Anniversary</option>
-						</optgroup>
-					</select>
-				</div>
-			</div>
-			<div class="row">
-				<label class="l-fl">Last Name
+				<label>Last Name
 					<input type="text" name="last-name">
 				</label>
-				<div class="r-fl">
-					<p>Quantity</p>
-					<label for="individual">Individual</label>
-					<input type="radio" name="quantity" id="individual" value="individual">
-					<label for="one-dozen">One Dozen</label>
-					<input type="radio" name="quantity" id="one-dozen" value="one-dozen">
-					<label for="two-dozen">Two Dozen</label>
-					<input type="radio" name="quantity" id="two-dozen" value="two-dozen">
+				<label>Phone Number
+					<input type="tel" name="phone-number">
+				</label>
+				<label>Email Address
+					<input type="email" name="email">
+				</label>
+				<p>Special Requests</p>
+				<textarea name="requests" rows="10" cols="60"></textarea>
+			</div>	
+			<div class="col">	
+				<p>Occasion</p>
+				<select name="occasion">
+					<optgroup label="home">
+						<option value="birthday">Birthday</option>
+						<option value="wedding">Wedding</option>
+						<option value="anniversary">Anniversary</option>
+					</optgroup>
+					<optgroup label="work">
+						<option value="promotions">Promotion</option>
+						<option value="meetings">Meetings</option>
+						<option value="anniversary">Anniversary</option>
+					</optgroup>
+				</select>
+				<p>Quantity</p>
+				<div class="row">
+					<div class="col">
+						<label for="individual">Individual</label>
+						<input type="radio" name="quantity" id="individual" value="individual">
+					</div>
+					<div class="col">
+						<label for="one-dozen">One Dozen</label>
+						<input type="radio" name="quantity" id="one-dozen" value="one-dozen">
+					</div>
+					<div class="col">
+						<label for="two-dozen">Two Dozen</label>
+						<input type="radio" name="quantity" id="two-dozen" value="two-dozen">
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="l-fl">
-					<label>Phone Number
-						<input type="tel" name="phone-number">
-					</label>
-					<label>Email Address
-						<input type="email" name="email">
-					</label>
-				</div>
-				<div class="r-fl">
-					<p>Flavor</p>
-					<div>
+				<p>Flavor</p>
+				<div class="row">
+					<div class="col">
 						<label for="wedding-cake">Wedding Cake</label>
 						<input type="radio" name="flavor" id="wedding-cake" value="wedding-cake">
+					</div>
+					<div class="col">
 						<label for="the-tuxedo">The Tuxedo</label>
 						<input type="radio" name="flavor" id="the-tuxedo" value="the-tuxedo">
+					</div>
+					<div class="col">
 						<label for="princess">Princess</label>
 						<input type="radio" name="flavor" id="princess" value="princess">
 					</div>
-					<div>
+				</div>
+				<div class="row">
+					<div class="col">
 						<label for="go-big-red">Go Big Red</label>
 						<input type="radio" name="flavor" id="go-big-red" value="go-big-red">
+					</div>
+					<div class="col">
 						<label for="pb-cup">PB Cup</label>
 						<input type="radio" name="flavor" id="pb-cup" value="pb-cup">
+					</div>
+					<div class="col">
 						<label for="cookies-cream">Cookies &amp; Creame</label>
 						<input type="radio" name="flavor" id="cookies-cream" value="cookies-cream">
 					</div>
-					<div>
+				</div>
+				<div class="row">
+					<div class="col">
 						<label for="signature">Signature</label>
 						<input type="radio" name="flavor" id="signature" value="signature">
+					</div>
+					<div class="col">
 						<label for="chocolate-lovers">Chocolate Lovers</label>
 						<input type="radio" name="flavor" id="chocolate-lovers" value="chocolate-lovers">
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="l-fl">
-					<p>Special Requests</p>
-					<textarea name="requests" rows="10" cols="60"></textarea>
+				<p>Type</p>
+				<div class="row">
+					<div class="col">
+						<label for="sig">Signature</label>
+						<input type="radio" name="type" id="sig" value="signature">
+					</div>
+					<div class="col">
+						<label for="allergen-free">Allergen Free</label>
+						<input type="radio" name="type" id="allergen-free" value="allergen-free">
+					</div>
+					<div class="col">
+						<label for="vegan">Vegan</label>
+						<input type="radio" name="type" id="vegan" value="vegan">
+					</div>
 				</div>
-				<div class="r-fl">
-					<p>Type</p>
-					<label for="sig">Signature</label>
-					<input type="radio" name="type" id="sig" value="signature">
-					<label for="allergen-free">Allergen Free</label>
-					<input type="radio" name="type" id="allergen-free" value="allergen-free">
-					<label for="vegan">Vegan</label>
-					<input type="radio" name="type" id="vegan" value="vegan">
-				</div>
+				<p><a href="#">Pay on Paypal</a></p>
 			</div>
-			<p><a href="#">Pay on Paypal</a></p>
 		</form>
 	</section>
 </div>
 	
-<footer>
-	<div class="wrapper">
-		<div class="row">
-			<section class="l-fl">
-				<h4>Real Fake Authentic</h4>
-				<p>specialty bakery dedicated to creating and baking several different sweet treats. </p>
-			</section>
-			<section class="l-fl">
-				<h4>Our Location</h4>
-				<p>123 Fake Street #101 <br>Fakersville, FA 12345</p>
-			</section>
-			<section class="r-fl">
-				<h4>Connect</h4>
-				<ul>
-					<li><a href="https://www.facebook.com/" target="_blank"><span>Facebook</span></a></li>
-					<li><a href="https://twitter.com/?lang=en" target="_blank"><span>Twitter</span></a></li>
-					<li><a href="https://www.pinterest.com/" target="_blank"><span>Pinterest</span></a></li>
-					<li><a href="https://www.linkedin.com/" target="_blank"><span>Linked In</span></a></li>
-					<li><a href="https://support.squarespace.com/hc/en-us/articles/206543187-Finding-your-RSS-feed-URL" target="_blank"><span>RSS Feed</span></a></li>
-				</ul>
-			</section>
-		</div>
-	</div>
+<footer class="wrapper row">
+	<section class="l-fl">
+		<h4>Real Fake Authentic</h4>
+		<p>specialty bakery dedicated to creating and baking several different sweet treats. </p>
+	</section>
+	<section class="l-fl">
+		<h4>Our Location</h4>
+		<p>123 Fake Street #101 <br>Fakersville, FA 12345</p>
+	</section>
+	<section class="r-fl">
+		<h4>Connect</h4>
+		<ul>
+			<li><a href="https://www.facebook.com/" target="_blank"><span>Facebook</span></a></li>
+			<li><a href="https://twitter.com/?lang=en" target="_blank"><span>Twitter</span></a></li>
+			<li><a href="https://www.pinterest.com/" target="_blank"><span>Pinterest</span></a></li>
+			<li><a href="https://www.linkedin.com/" target="_blank"><span>Linked In</span></a></li>
+			<li><a href="https://support.squarespace.com/hc/en-us/articles/206543187-Finding-your-RSS-feed-URL" target="_blank"><span>RSS Feed</span></a></li>
+		</ul>
+	</section>
 </footer>
 
 </body>
