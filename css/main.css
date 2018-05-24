@@ -1,3 +1,349 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+/*--------------------------------------------------------------
+
+>>> TABLE OF CONTENTS:
+
+----------------------------------------------------------------
+
+1.0 - Typography
+	1.1 - Headings
+	1.2 - Body Copy
+	1.3 - Buttons
+	1.4 - Forms
+	1.5 - Lists
+	1.6 - Tables
+
+2.0 - Navigation Menus
+	2.1 - Main
+
+3.0 - Content
+	3.1 - Site Structure
+	3.2 - Site Header
+	3.3 - Site Footer
+
+4.0 - Media
+
+5.0 - Utility
+	5.1 - Text Sizes
+	5.2 - Colors
+	5.3 - Alignments
+
+--------------------------------------------------------------*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrapper  {
+	width: 1170px;
+}
+
+.row {
+	overflow: auto;
+}
+
+.wrapper, #about > p, #products header, #contact header, .wh-circle, table  {
+	margin: 0 auto;
+}
+
+nav li, header p, footer li {
+	display: inline-block;
+}
+
+/*--------------------------------------------------------------
+1.0 - Typography
+-------------------------------------------------------------- */
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+caption, form p, h3, #about h2, form > div label {
+	color: #9662ce;
+}
+
+a[href*="tel"], #about h3, h2, body > header p, #about > p {
+	color: #204384;
+}
+
+nav a, p:last-child a, footer {
+	color: #fff;
+}
+
+nav, body > header p, p:last-child a, #about ul, #products h2, #contact h2, form, footer h4, div:nth-child(4) h2, #contact h2  {
+	text-transform: uppercase;
+}
+
+nav ul, #about > p, #products, div:nth-child(4) h2, #contact header, header p  {
+	text-align: center;
+}
+
+body > header p, #about > p, header:first-child h2, #products h3  {
+	font-size: 32px;
+}
+
+#about div p, #about li {
+	font-weight: 500;
+}
+
+/*    1.1 - Headings     */
+
+body > header p {
+    padding: 20px 80px 20px 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 490px 0px 90px 85px;
+}
+
+body > header p, header:first-child h2 {
+    font-weight: 600;
+}
+
+#about h2, #products h3, caption, div:nth-child(4) section h3 {
+	font-family: 'Cookie', cursive;
+	font-weight: 200;
+}
+
+#about h2, nav ul, h3 {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+#about h3 {
+	font-weight: 500;
+	padding: 3px 40px;	
+}
+
+#products h3 {
+	margin: 30px 0 -20px;
+}
+
+div:nth-child(4) section h3 {
+	font-size: 18px;
+}
+
+#about h2 {
+	font-size: 36px;
+	margin-bottom: -8px;
+}
+
+/*	1.2 - Body Copy      */
+
+#about .row div:nth-child(2), #about li, #products div p {
+	font-size: 14px;
+}
+
+#about div p, #products p {
+	color: #432920;
+}
+
+p, #about ul {
+	line-height: 1.75;
+}
+
+p:last-child a {
+	padding: 10px 30px;
+	font-size: 16px;
+}
+
+#about div p:last-child {
+	margin-top: 40px;
+	font-weight: 400;
+}
+
+header p {
+	font-size: 18px;
+	margin-bottom: 80px;
+}
+
+/*	1.3 - Buttons       */
+
+a {
+	text-decoration: none;
+}
+
+/*	1.4 - Forms        */
+
+
+/*	1.5 - Lists        */
+
+#about li {
+	list-style-image: url(../img/cherry.png);
+	padding-bottom: 13px;
+}
+
+/*	1.6 - Tables       */
+
+
+
+
+/*--------------------------------------------------------------
+2.0 - Navigation Menus
+-------------------------------------------------------------- */
+
+
+/*  2.1 - Main       */
+
+nav a {
+	padding: 0 22px 25px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-top: -40px;
+	padding-bottom: 25px;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+3.0 - Content
+-------------------------------------------------------------- */
+
+nav, footer, p:last-child a {
+	background-color: #9662ce;
+}
+
+#products, #contact {
+	background-color: #c7ffff;
+}
+
+thead {
+	background-color: #204384;
+}
+
+tbody tr {
+	background-color: #fff;
+}
+
+/*	3.1 - Site Structure     */
+
+#about .row div:nth-child(2) {
+	width: 570px;
+	margin: 0 0 110px 20px;
+}
+
+#about > p {
+	width: 705px;
+	margin-top: 60px;
+	margin-bottom: 80px;
+	line-height: 1.25;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+form > div, input[type*="text"], input[type="email"], input[type="tel"], select {
+	width: 470px;
+}
+
+#products .row section {
+	width: 285px;
+}
+
+#products, #contact {
+	padding: 100px;
+}
+
+div:nth-child(4) section {
+	width: 270px;
+}
+
+#products section:nth-child(2) {
+	margin-left: 140px;
+}
+
+/*	3.2 - Site Header      */
+
+nav img {
+	position: relative;
+	width: 85px;
+	height: 82px;
+	top: 38px;
+	right: 0;
+}
+
+#products header p, #contact header p {
+	width: 550px;
+}
+
+/*	3.3 - Site Footer     */
+
+
+
+/*--------------------------------------------------------------
+4.0 - Media
+-------------------------------------------------------------- */
+
+body > header {
+	background: url(../img/cups.jpg) 0 0 no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 116px;
+	width: 100%;
+}
+
+.wh-circle {
+	background: #fff no-repeat center center;
+	height: 180px;
+	width: 180px;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.row section:first-child .wh-circle {
+	background-image: url("../img/pink-cup.png");
+}
+
+.row section:nth-child(2) .wh-circle {
+	background-image: url("../img/choc-cup.png");
+}
+
+.row section:last-child .wh-circle {
+	background-image: url("../img/blue-cup.png");
+}
+
+
+/*--------------------------------------------------------------
+5.0 - Utility
+-------------------------------------------------------------- */
+
+
+/*	5.1 - Text Sizes     */
+
+
+/*	5.2 - Colors        */
+
+
+/*	5.3 - Alignments      */
+
+.l-fl, .col {
+	float: left;
+}
+
+.r-fl, .col:last-child {
+	float: right;
+}
+
+
+
+
+

@@ -16,19 +16,23 @@
 	
 <header>
 	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><h1><img src="img/logo.jpg" alt="real authentic fake logo" width="87"></h1></li>
-			<li><a href="#products">Products</a></li>
-			<li><a href="#contact">Contact Us</a></li>
-		</ul>
+		<div class="wrapper">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><h1><img src="img/logo.jpg" alt="real authentic fake logo"></h1></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</div>
 	</nav>
-	<p>Try our signature cupcake</p>
+	<div class="wrapper">
+		<p>Try our signature cupcake</p>
+	</div>
 </header>
 	
 <div class="wrapper" id="about">
-	<p>specialty bakery dedicated to creating and baking several different sweet treats. </p>
+	<p>specialty bakery dedicated to creating and baking several different sweet treats.</p>
 	<section class="row">
 		<img class="l-fl" src="img/wh-cup.jpg" alt="white icing vanilla cupcake in pale blue wrapper">
 		<div class="l-fl">
@@ -36,8 +40,8 @@
 				<h2>About Us</h2>
 			</header>
 			<p>We offer cupcakes in three sizes: Jumbo Gourmet (filled), Regular &amp; Mini. Plus, we make Cakes, Cake Balls/Pops, Brownie Shots and several other sweet treats!</p>
-			<p>We are open 7 days a week, beginning Sunday at 11 am till 4 pm. Monday through Friday 8 am till 7 pm, and Saturday 10 am to 5 pm.</p>
-			<p>Stop in today for a treat or give us a call for an order!  We take special orders daily and provide delivery options. For pricing inquiries, please <a href="tel:+15555551212">give us a call.</a></p>
+			<p>We are open 7 days a week, beginning Sunday at <time datetime="11:00">11 am</time> till <time datetime="16:00">4 pm</time>. Monday through Friday <time datetime="08:00">8 am</time> till <time datetime="19:00">7 pm</time>, and Saturday <time datetime="10:00">10 am</time> to <time datetime="17:00">5 pm</time>.</p>
+			<p>Stop in today for a treat or give us a call for an order!  We take special orders daily and provide delivery options. For pricing inquiries, please <a href="tel:+15555551212">give us a call</a>.</p>
 			<p><a>Contact Us</a></p>
 		</div>
 		<section class="r-fl">
@@ -60,7 +64,7 @@
 			<p>We have something for every craving, celebration and occasion. We also offer several allergen free options.</p>
 		</header>
 		<div class="row">
-			<section>
+			<section class="l-fl">
 				<div class="wh-circle"></div>
 				<header>
 					<h3>Signature Cupcakes</h3>
@@ -68,7 +72,7 @@
 				<p> Caramels marshmallow jelly-o cotton candy ice cream I love cotton candy chocolate bar fruitcake.</p>
 				<p><a href="#contact">Order Now</a></p>
 			</section>
-			<section>
+			<section class="l-fl">
 				<div class="wh-circle"></div>
 				<header>
 					<h3>Allergen Free</h3>
@@ -76,7 +80,7 @@
 				<p>Topping pudding candy canes dragée. Lemon drops chupa chups gingerbread. Jelly topping apple pie cake pie icing chocolate bar fruitcake oat cake.</p>
 				<p><a href="#contact">Order Now</a></p>
 			</section>
-			<section>
+			<section class="r-fl">
 				<div class="wh-circle"></div>
 				<header>
 					<h3>Vegan</h3>
@@ -93,25 +97,25 @@
 		<h2>Daily Flavors</h2>
 	</header>
 	<div class="row">
-		<section>
+		<section class="l-fl">
 			<header>
 				<h3>Wedding Cake</h3>
 			</header>
 			<p>White Cake frosted with white buttercream and topped with wedding day sprinkles and a rose ornament.</p>
 		</section>
-		<section>
+		<section class="l-fl">
 			<header>
 				<h3>The Tuxedo</h3>
 			</header>
 			<p>Chocolate Cake frosted with White buttercream, sprinkled with sprinkles.</p>
 		</section>
-		<section>
+		<section class="l-fl">
 			<header>
 				<h3>Princess/Prince</h3>
 			</header>
 			<p>Almond flavored White Cake frosted with a pastel pink and pastel blue swirl vanilla buttercream, topped with colorful confetti sprinkles.</p>
 		</section>
-		<section>
+		<section class="r-fl">
 			<header>
 				<h3>Go Big Red Velvet</h3>
 			</header>
@@ -119,25 +123,25 @@
 		</section>
 	</div>
 	<div class="row">
-		<section>
+		<section class="l-fl">
 			<header>
 				<h3>Peanut Butter Cup</h3>
 			</header>
 			<p>Chocolate Cake frosted with peanut butter buttercream and topped with peanut butter cup crumbles.</p>
 		</section>
-		<section>
+		<section class="l-fl">
 			<header>
 				<h3>Cookies &amp; Cream</h3>
 			</header>
 			<p>Chocolate Cake frosted with chocolate cookie crumb buttercream and topped with crumbed oreo crumbs.</p>
 		</section>
-		<section>
+		<section class="l-fl">
 			<header>
 				<h3>Signature</h3>
 			</header>
 			<p>Chocolate Cake frosted with our favorite Cupcakes &amp; more colors, chocolate and hot pink swirled buttercream.</p>
 		</section>
-		<section>
+		<section class="r-fl">
 			<header>
 				<h3>Chocolate Lovers</h3>
 			</header>
@@ -187,7 +191,7 @@
 			</tbody>
 		</table>
 		<form class="row">
-			<div class="col">
+			<div class="l-fl">
 				<label>First Name
 					<input type="text" name="first-name">
 				</label>
@@ -201,9 +205,9 @@
 					<input type="email" name="email">
 				</label>
 				<p>Special Requests</p>
-				<textarea name="requests" rows="10" cols="60"></textarea>
+				<textarea name="requests" rows="10" cols="56"></textarea>
 			</div>	
-			<div class="col">	
+			<div class="r-fl">	
 				<p>Occasion</p>
 				<select name="occasion">
 					<optgroup label="home">
@@ -220,70 +224,70 @@
 				<p>Quantity</p>
 				<div class="row">
 					<div class="col">
-						<label for="individual">Individual</label>
 						<input type="radio" name="quantity" id="individual" value="individual">
+						<label for="individual">Individual</label>
 					</div>
 					<div class="col">
-						<label for="one-dozen">One Dozen</label>
 						<input type="radio" name="quantity" id="one-dozen" value="one-dozen">
+						<label for="one-dozen">One Dozen</label>
 					</div>
 					<div class="col">
-						<label for="two-dozen">Two Dozen</label>
 						<input type="radio" name="quantity" id="two-dozen" value="two-dozen">
+						<label for="two-dozen">Two Dozen</label>
 					</div>
 				</div>
 				<p>Flavor</p>
 				<div class="row">
 					<div class="col">
-						<label for="wedding-cake">Wedding Cake</label>
 						<input type="radio" name="flavor" id="wedding-cake" value="wedding-cake">
+						<label for="wedding-cake">Wedding Cake</label>
 					</div>
 					<div class="col">
-						<label for="the-tuxedo">The Tuxedo</label>
 						<input type="radio" name="flavor" id="the-tuxedo" value="the-tuxedo">
+						<label for="the-tuxedo">The Tuxedo</label>
 					</div>
 					<div class="col">
-						<label for="princess">Princess</label>
 						<input type="radio" name="flavor" id="princess" value="princess">
+						<label for="princess">Princess</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-						<label for="go-big-red">Go Big Red</label>
 						<input type="radio" name="flavor" id="go-big-red" value="go-big-red">
+						<label for="go-big-red">Go Big Red</label>
 					</div>
 					<div class="col">
-						<label for="pb-cup">PB Cup</label>
 						<input type="radio" name="flavor" id="pb-cup" value="pb-cup">
+						<label for="pb-cup">PB Cup</label>
 					</div>
 					<div class="col">
-						<label for="cookies-cream">Cookies &amp; Creame</label>
 						<input type="radio" name="flavor" id="cookies-cream" value="cookies-cream">
+						<label for="cookies-cream">Cookies &amp; Creame</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-						<label for="signature">Signature</label>
 						<input type="radio" name="flavor" id="signature" value="signature">
+						<label for="signature">Signature</label>
 					</div>
 					<div class="col">
-						<label for="chocolate-lovers">Chocolate Lovers</label>
 						<input type="radio" name="flavor" id="chocolate-lovers" value="chocolate-lovers">
+						<label for="chocolate-lovers">Chocolate Lovers</label>
 					</div>
 				</div>
 				<p>Type</p>
 				<div class="row">
 					<div class="col">
-						<label for="sig">Signature</label>
 						<input type="radio" name="type" id="sig" value="signature">
+						<label for="sig">Signature</label>
 					</div>
 					<div class="col">
-						<label for="allergen-free">Allergen Free</label>
 						<input type="radio" name="type" id="allergen-free" value="allergen-free">
+						<label for="allergen-free">Allergen Free</label>
 					</div>
 					<div class="col">
-						<label for="vegan">Vegan</label>
 						<input type="radio" name="type" id="vegan" value="vegan">
+						<label for="vegan">Vegan</label>
 					</div>
 				</div>
 				<p><a href="#">Pay on Paypal</a></p>
@@ -292,25 +296,27 @@
 	</section>
 </div>
 	
-<footer class="wrapper row">
-	<section class="l-fl">
-		<h4>Real Fake Authentic</h4>
-		<p>specialty bakery dedicated to creating and baking several different sweet treats. </p>
-	</section>
-	<section class="l-fl">
-		<h4>Our Location</h4>
-		<p>123 Fake Street #101 <br>Fakersville, FA 12345</p>
-	</section>
-	<section class="r-fl">
-		<h4>Connect</h4>
-		<ul>
-			<li><a href="https://www.facebook.com/" target="_blank"><span>Facebook</span></a></li>
-			<li><a href="https://twitter.com/?lang=en" target="_blank"><span>Twitter</span></a></li>
-			<li><a href="https://www.pinterest.com/" target="_blank"><span>Pinterest</span></a></li>
-			<li><a href="https://www.linkedin.com/" target="_blank"><span>Linked In</span></a></li>
-			<li><a href="https://support.squarespace.com/hc/en-us/articles/206543187-Finding-your-RSS-feed-URL" target="_blank"><span>RSS Feed</span></a></li>
-		</ul>
-	</section>
+<footer>
+	<div class="wrapper row">
+		<section class="l-fl">
+			<h4>Real Fake Authentic</h4>
+			<p>specialty bakery dedicated to creating and baking several different sweet treats. </p>
+		</section>
+		<section class="l-fl">
+			<h4>Our Location</h4>
+			<p>123 Fake Street #101 <br>Fakersville, FA 12345</p>
+		</section>
+		<section class="r-fl">
+			<h4>Connect</h4>
+			<ul>
+				<li><a href="https://www.facebook.com/" target="_blank"><span>Facebook</span></a></li>
+				<li><a href="https://twitter.com/?lang=en" target="_blank"><span>Twitter</span></a></li>
+				<li><a href="https://www.pinterest.com/" target="_blank"><span>Pinterest</span></a></li>
+				<li><a href="https://www.linkedin.com/" target="_blank"><span>Linked In</span></a></li>
+				<li><a href="https://support.squarespace.com/hc/en-us/articles/206543187-Finding-your-RSS-feed-URL" target="_blank"><span>RSS Feed</span></a></li>
+			</ul>
+		</section>
+	</div>
 </footer>
 
 </body>
