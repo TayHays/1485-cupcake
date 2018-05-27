@@ -90,7 +90,7 @@ body > header p, #about > div p, header:first-child h2, #products h3, caption  {
 	font-size: 32px;
 }
 
-#about div p, #about li, #about h3, form a, td {
+#about div p, #about li, #about h3, form a, td, #products section[class*="-fl"] p:nth-child(3), body > section:nth-child(4) p {
 	font-weight: 500;
 }
 
@@ -112,7 +112,7 @@ body > header p, header:first-child h2, .col label, .l-fl label, form p {
 	font-weight: 200;
 }
 
-h2, nav ul, h3, section:nth-child(4) p, form p, h4 {
+h2, nav ul, h3, section:nth-child(4) p, form p, h4, #about .l-fl:nth-child(2) p:nth-child(2), #products section[class*="-fl"] p:nth-child(3) {
 	-webkit-margin-before: 0;
     -webkit-margin-after: 0;
 }
@@ -122,7 +122,7 @@ h2, nav ul, h3, section:nth-child(4) p, form p, h4 {
 }
 
 #products h3 {
-	margin: 30px 0 -15px;
+	margin-top: 30px;
 }
 
 section:nth-child(4) h3 {
@@ -132,7 +132,10 @@ section:nth-child(4) h3 {
 
 #about h2 {
 	font-size: 36px;
-	margin-bottom: -8px;
+}
+
+#about .l-fl:nth-child(2) p:nth-child(2) {
+	margin-top: 10px;
 }
 
 
@@ -168,7 +171,7 @@ header p {
 }
 
 #products section > p:last-child {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 
@@ -198,7 +201,7 @@ form label, p:last-child a {
 }
 
 input {
-	padding: 15px;
+	padding: 15px 250px 15px 15px;
 }
 
 form .l-fl input {
@@ -206,7 +209,7 @@ form .l-fl input {
 }
 
 form select {
-	padding: 12px;
+	padding: 12px 300px 12px 15px;
 }
 
 form .r-fl p:first-child {
@@ -242,21 +245,22 @@ form p:last-child {
 	margin-top: 110px;
 }
 
+input[name="flavor"], input[name="type"], input[name="quantity"] {
+	padding: 8px;
+}
+
 input[name="flavor"] {
 	-webkit-appearance: square-button;
-	padding: 8px;
 }
 
 input[name="type"], input[name="quantity"] {
 	-webkit-appearance: button;
-	padding: 8px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	-ms-border-radius: 50%;
 	border-radius: 50%;
 }
-
 
 
 /*	1.5 - Lists        */
@@ -270,7 +274,12 @@ input[name="type"], input[name="quantity"] {
 /*	1.6 - Tables       */
 
 table col:first-child, table, input, textarea, select {
-	border: 2px solid #204384;
+	border-style: solid;
+	border-color: #204384;
+}
+
+input, textarea, select {
+	border-width: 3px;
 }
 
 td, th {
@@ -308,6 +317,7 @@ header div:first-child {
 	left: 0;
 	width: 100%;
 }
+
 
 /*  2.2 - Footer     */
 
@@ -373,6 +383,7 @@ tbody tr, input, textarea, select {
 	background-color: #fff;
 }
 
+
 /*	3.1 - Site Structure     */
 
 #about .row div:nth-child(2) {
@@ -390,11 +401,15 @@ tbody tr, input, textarea, select {
 	width: 705px;
 }
 
+#about .r-fl {
+	width: 174px;
+}
+
 table {
 	border-collapse: collapse;
 }
 
-form > div, input[type*="text"], input[type="email"], input[type="tel"], select {
+form > div {
 	width: 470px;
 }
 
@@ -411,7 +426,7 @@ form > div, input[type*="text"], input[type="email"], input[type="tel"], select 
 }
 
 #products .row > section:first-child p:last-child {
-	margin-top: 70px;
+	margin-top: 64px;
 }
 
 body > section:nth-child(4) {
@@ -426,14 +441,16 @@ section:nth-child(4) section:nth-child(2), section:nth-child(4) section:nth-chil
 	margin-left: 40px;
 }
 
-form {
+form, .col {
 	padding: 5px 0;
+}
+
+form {
 	width: 965px;
 }
 
 .col {
 	width: 148px;
-	padding: 5px 0;
 }
 
 form .row {
@@ -443,6 +460,7 @@ form .row {
 form .col input, nav img {
 	vertical-align: middle;
 }
+
 
 /*	3.2 - Site Header      */
 
@@ -454,6 +472,7 @@ nav img {
 #products header p, #contact header p {
 	width: 550px;
 }
+
 
 /*	3.3 - Site Footer     */
 
@@ -520,8 +539,4 @@ body > header {
 .r-fl {
 	float: right;
 }
-
-
-
-
 
