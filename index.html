@@ -14,27 +14,29 @@
 
 <body>
 	
-<header>
-	<nav>
-		<div class="wrapper">
+<header id="home">
+	<div>
+		<nav class="wrapper">
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About</a></li>
-				<li><h1><img src="img/logo.jpg" alt="real authentic fake logo"></h1></li>
+				<li><h1><img href="#home" src="img/logo.jpg" alt="real authentic fake"></h1></li>
 				<li><a href="#products">Products</a></li>
 				<li><a href="#contact">Contact Us</a></li>
 			</ul>
-		</div>
-	</nav>
+		</nav>
+	</div>
 	<div class="wrapper">
 		<p>Try our signature cupcake</p>
 	</div>
 </header>
 	
 <div class="wrapper" id="about">
-	<p>specialty bakery dedicated to creating and baking several different sweet treats.</p>
+	<div>
+		<p>specialty bakery dedicated to creating and baking several different sweet treats.</p>
+	</div>
 	<section class="row">
-		<img class="l-fl" src="img/wh-cup.jpg" alt="white icing vanilla cupcake in pale blue wrapper">
+		<img class="l-fl" src="img/wh-cup.jpg" alt="">
 		<div class="l-fl">
 			<header>
 				<h2>About Us</h2>
@@ -92,7 +94,7 @@
 	</section>
 </div>
 	
-<div class="wrapper">
+<section class="wrapper">
 	<header>
 		<h2>Daily Flavors</h2>
 	</header>
@@ -148,7 +150,7 @@
 			<p>Chocolate Cake dipped in chocolate ganache, sprinkled with mini chocolate chips and topped with a dollop of chocolate buttercream.</p>
 		</section>
 	</div>
-</div>
+</section>
 	
 <div id="contact">
 	<section class="wrapper">
@@ -239,40 +241,34 @@
 				<p>Flavor</p>
 				<div class="row">
 					<div class="col">
-						<input type="radio" name="flavor" id="wedding-cake" value="wedding-cake">
-						<label for="wedding-cake">Wedding Cake</label>
+						<label for="wedding-cake">
+							<input type="radio" name="flavor" id="wedding-cake" value="wedding-cake">Wedding Cake
+						</label>
+						<label for="go-big-red">
+							<input type="radio" name="flavor" id="go-big-red" value="go-big-red">Go Big Red
+						</label>
+						<label for="signature">
+							<input type="radio" name="flavor" id="signature" value="signature">Signature
+						</label>
 					</div>
 					<div class="col">
-						<input type="radio" name="flavor" id="the-tuxedo" value="the-tuxedo">
-						<label for="the-tuxedo">The Tuxedo</label>
+						<label for="the-tuxedo">
+							<input type="radio" name="flavor" id="the-tuxedo" value="the-tuxedo">The Tuxedo
+						</label>
+						<label for="pb-cup">
+							<input type="radio" name="flavor" id="pb-cup" value="pb-cup">PB Cup
+						</label>
+						<label for="chocolate-lovers">
+							<input type="radio" name="flavor" id="chocolate-lovers" value="chocolate-lovers">Chocolate Lovers
+						</label>
 					</div>
 					<div class="col">
-						<input type="radio" name="flavor" id="princess" value="princess">
-						<label for="princess">Princess</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<input type="radio" name="flavor" id="go-big-red" value="go-big-red">
-						<label for="go-big-red">Go Big Red</label>
-					</div>
-					<div class="col">
-						<input type="radio" name="flavor" id="pb-cup" value="pb-cup">
-						<label for="pb-cup">PB Cup</label>
-					</div>
-					<div class="col">
-						<input type="radio" name="flavor" id="cookies-cream" value="cookies-cream">
-						<label for="cookies-cream">Cookies &amp; Creame</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<input type="radio" name="flavor" id="signature" value="signature">
-						<label for="signature">Signature</label>
-					</div>
-					<div class="col">
-						<input type="radio" name="flavor" id="chocolate-lovers" value="chocolate-lovers">
-						<label for="chocolate-lovers">Chocolate Lovers</label>
+						<label for="princess">
+							<input type="radio" name="flavor" id="princess" value="princess">Princess
+						</label>
+						<label for="cookies-cream">
+							<input type="radio" name="flavor" id="cookies-cream" value="cookies-cream">Cookies &amp; Creame
+						</label>
 					</div>
 				</div>
 				<p>Type</p>
