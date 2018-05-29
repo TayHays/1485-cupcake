@@ -199,11 +199,12 @@ form label, p:last-child a {
 }
 
 input {
-	padding: 15px 250px 15px 15px;
+	padding: 15px;
 }
 
 form .l-fl input {
 	margin: 5px 0 25px;
+	width: 465px;
 }
 
 form select {
