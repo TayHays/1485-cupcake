@@ -28,9 +28,7 @@
 4.0 - Media
 
 5.0 - Utility
-	5.1 - Text Sizes
-	5.2 - Colors
-	5.3 - Alignments
+	5.1 - Alignments
 
 --------------------------------------------------------------*/
 
@@ -307,8 +305,12 @@ tr:nth-child(2) td:nth-child(3), tr:nth-child(3) td:nth-child(3) {
 
 /*  2.1 - Main       */
 
-nav a {
-	padding: 0 22px 25px;
+nav li:first-child a, nav li:nth-child(2) a {
+	padding: 0 32px;
+}
+
+nav li:nth-child(4) a, nav li:last-child a {
+	padding: 0 23px;
 }
 
 header div:first-child {
